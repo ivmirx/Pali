@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>30</SupportedOSPlatformVersion>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <ApplicationId>com.QotoQot.Pali</ApplicationId>
+        <ApplicationVersion>1</ApplicationVersion>
+        <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+        <!--
+          Enables trim analyzers and full trimming during Release mode.
+          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
+        -->
+        <TrimMode>full</TrimMode>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="CommunityToolkit.Diagnostics" Version="8.4.0" />
+      <PackageReference Include="CSharpFunctionalExtensions" Version="3.4.3" />
+      <PackageReference Include="MvvmCross" Version="9.3.1" />
+      <PackageReference Include="MvvmCross.Plugin.Color" Version="9.3.1" />
+      <PackageReference Include="MvvmCross.Plugin.ResxLocalization" Version="9.3.1" />
+      <PackageReference Include="MvvmCross.Plugin.Visibility" Version="9.3.1" />
+    </ItemGroup>
+</Project>
