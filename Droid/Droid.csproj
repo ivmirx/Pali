@@ -16,8 +16,8 @@
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="CommunityToolkit.Diagnostics" Version="8.4.0" />
-      <PackageReference Include="CSharpFunctionalExtensions" Version="3.4.3" />
-      <PackageReference Include="Microsoft.Maui.Essentials" Version="9.0.40" />
+      <PackageReference Include="CSharpFunctionalExtensions" Version="3.6.0" />
+      <PackageReference Include="Microsoft.Maui.Essentials" Version="9.0.60" />
       <PackageReference Include="MvvmCross" Version="9.3.1" />
       <PackageReference Include="MvvmCross.Plugin.Color" Version="9.3.1" />
       <PackageReference Include="MvvmCross.Plugin.ResxLocalization" Version="9.3.1" />
@@ -25,5 +25,8 @@
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Views\" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Droid.csproj.DotSettings" />
     </ItemGroup>
 </Project>
