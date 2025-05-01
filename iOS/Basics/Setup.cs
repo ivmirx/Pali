@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using MvvmCross.Platforms.Ios.Core;
 using MvvmCross.Platforms.Ios.Presenters;
 
-namespace iOS;
+namespace iOS.Basics;
 
 public class Setup : MvxIosSetup<App>
 {

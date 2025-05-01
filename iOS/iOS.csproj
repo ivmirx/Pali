@@ -12,6 +12,12 @@
         -->
         <TrimMode Condition="'$(Configuration)' == 'Release'">full</TrimMode>
     </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <MtouchFastDev>true</MtouchFastDev>
+        <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+        <MtouchDebug>true</MtouchDebug>
+        <UseInterpreter>true</UseInterpreter>
+    </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="CommunityToolkit.Diagnostics" Version="8.4.0" />
       <PackageReference Include="CSharpFunctionalExtensions" Version="3.6.0" />
@@ -20,6 +26,7 @@
       <PackageReference Include="MvvmCross.Plugin.Color" Version="9.3.1" />
       <PackageReference Include="MvvmCross.Plugin.ResxLocalization" Version="9.3.1" />
       <PackageReference Include="MvvmCross.Plugin.Visibility" Version="9.3.1" />
+      <PackageReference Include="tbc.target" Version="0.0.20241105.2" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Views\" />

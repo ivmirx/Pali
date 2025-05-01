@@ -1,6 +1,6 @@
 using CommunityToolkit.Diagnostics;
 
-namespace iOS.Utils;
+namespace iOS.Basics.Utils;
 
 public static class UiKitExtensions
 {
